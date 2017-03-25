@@ -2,7 +2,7 @@
   "name": "scrollyeah",
   "version": "0.3.2",
   "description": "",
-  "main":"./scrollyeah/scrollyeah.js",
+  "main":"./src/scrollyeah.js",
   "dependencies": {
   },
   "repository": {
