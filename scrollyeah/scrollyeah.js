@@ -95,14 +95,6 @@
     return this;
   }
 
-  $(function(){
-    // Авто-инициализация по классу.
-    $('.scrollyeah').each(function(){
-      var $this = $(this);
-      $this.scrollyeah(collectOptions($this));
-    });
-  });
-
   var _prefix = ['-webkit-', '-moz-', '-o-', '-ms-', ''];
 
   function getCSS(prop, val) {
@@ -574,4 +566,3 @@
 
   }
 })(jQuery);
-
